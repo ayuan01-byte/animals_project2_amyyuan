@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <br>
+    <p class="top-right">Please Read: Owls usually need to hunt at night without seeing its prey, where they focus on where sounds are coming from. The text can glow if you click the button because the owl's eyes glow in darkness. 
+    </p>
+    <button onclick="boxToggle()" style="color: white;">Switch to nighttime to talk to an owl!</button>
+    <button onclick="glowToggle()" style="color: white;">See clearly in the dark!</button>
+
+    <div id="box" class="box">
+        <img src="owl.jpg" alt="owl image" style="width: 100%; height: 100%; object-fit: contain;">
+    </div>
+
+    <br>
+    <p class="bottom-left">Go back to <a href="../index.html"> home page.</a></p>
+    <br><br>
+    <script src="speech.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

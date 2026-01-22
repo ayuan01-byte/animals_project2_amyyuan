@@ -1,0 +1,48 @@
+body {
+  width: 90vw;
+  margin: auto;
+  position: relative;
+  background-size: 100%;
+  background-image: url('image/grass.jpeg'); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.good{
+  font-family: "Rubik Glitch", system-ui;
+  font-size: 15px;
+  color: bisque;
+}
+.top-right {
+    position: absolute;
+    top: 3px;
+    left: 15px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+img {
+  padding: 1.5rem;
+  display: block;
+  margin: 0 auto;
+}
+
+img.vertical-shake {
+  animation: vertical-shake 0.4s infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes vertical-shake {
+  0% { transform: translateY(0); }
+  25% { transform: translateY(5px); }
+  50% { transform: translateY(-5px); }
+  75% { transform: translateY(5px); }
+  100% { transform: translateY(0); }
+}

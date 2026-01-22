@@ -1,0 +1,27 @@
+body{
+    width: 90vw;
+    margin: auto;
+    position: relative;
+    background: #ffffff url('image/background.png') no-repeat center fixed;
+    background-size: 100%;
+}
+.main{
+		display: block;
+	}
+.number {
+	position: absolute;
+
+}
+.overlay-text {
+	color: rgb(164, 151, 151);
+	font-size: 20px;
+	font-family: "DM Serif Text", serif;
+}
+.top-left {
+    position: absolute;
+    top: 3px;
+    left: 16px;
+    color: rgb(12, 90, 207);
+	font-size: 30px;
+	font-family: "DM Serif Text", serif;
+}

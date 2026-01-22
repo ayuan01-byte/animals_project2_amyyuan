@@ -1,0 +1,76 @@
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Creepster", system-ui;
+}
+.top-right {
+    position: absolute;
+    top: 3px;
+    left: 500px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.word {
+  position: absolute;
+  font-weight: 100;
+  color: darkblue;
+  text-shadow: none;
+  filter: blur(0px);
+  font-size: 24px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+body.glow .word {
+  color: white;
+  text-shadow: 0 0 20px greenyellow, 0 0 30px greenyellow, 0 0 40px greenyellow;
+  filter: blur(0px);
+}
+
+button {
+    padding: 10px;
+    border:1px solid;
+    cursor:pointer;
+    background-color: rgb(86, 57, 53);
+    border-radius:5px;
+    transition: background-color .2s;
+}
+
+button:hover {
+    background-color: rgb(100, 85, 88);
+}
+button:active {
+    background-color: rgb(21, 15, 15);
+}
+.dark{
+    background-color: rgb(3, 20, 84);
+}
+
+.bottom-left {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+
+.box{
+    position: fixed;
+    bottom: 10px;
+    right: -600px;
+    width: 500px;
+    height: 500px;
+    transition: right .5s;
+    z-index: 1000;
+}
+
+.active {
+  right: 10px;
+  }
+
+
