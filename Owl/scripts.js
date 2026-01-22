@@ -1,3 +1,4 @@
+// Create a div element with the "word" class to display text with custom styling
 const textDisplay = document.createElement("div");
 textDisplay.className = "word";
 textDisplay.style.position = "absolute";
